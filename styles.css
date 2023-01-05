@@ -1,10 +1,11 @@
-
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Rowdies:wght@300&display=swap');
 body{
    background-color: #F2EBE3;
    width: 100%;
    height: 100%;
    display: flex;
    justify-content: center;
+
   
 }
 
@@ -42,6 +43,8 @@ body{
     flex-direction: column;
     justify-content: space-around;
     padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 .right_side >.PERFUME{
@@ -51,7 +54,41 @@ body{
 .heading{
     width: 220px;
     color: black;
+    font-family:'Rowdies';
+    font-weight: 300;
+}
+.discription{
+    width: 250px;
+    color: black;
 }
 
 
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: bold;
+    align-items: center;
+}
 
+.offer-price{
+    font-size: 1.5rem;
+    color: #3D7F67;
+}
+
+.mrp{
+    text-decoration: line-through;
+}
+
+button{
+    background-color: #3D7F67;
+    padding: .8rem;
+    color: #F2EBE3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0e563c;
+}
